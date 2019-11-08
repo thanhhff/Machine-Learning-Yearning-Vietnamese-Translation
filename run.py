@@ -72,7 +72,7 @@ def main(vn_only=True):
                     if line.startswith('>'):
                         if vn_only:
                             continue
-                        all_file.write('<details><summary>click to show English</summary>\n'.format(header))
+                        all_file.write('<details><summary><i>click to show English</i></summary>\n'.format(header))
                         all_file.write('<p>\n')
                         all_file.write('\n')
                         
