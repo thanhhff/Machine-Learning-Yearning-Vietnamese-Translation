@@ -69,6 +69,7 @@ def main(vn_only=True):
             header = header.replace('# ', '')
             all_file.write('<details><summary>{}</summary>\n'.format(header))
             all_file.write('<p>\n')
+            all_file.write('\n')
             with codecs.open(chapter_path, 'r', encoding='utf-8') as one_file:
                 for line in one_file:
                     if vn_only and line.startswith('>'):

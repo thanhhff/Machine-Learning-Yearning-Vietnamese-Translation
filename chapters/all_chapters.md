@@ -32,6 +32,7 @@
 ------------------
 <details><summary>1. Tại sao cần chiến lược Machine Learning</summary>
 <p>
+
 > # 1. Why Machine Learning Strategy
 
 # 1. Tại sao cần chiến lược Machine Learning 
@@ -103,6 +104,7 @@ Cuốn sách này sẽ giúp bạn trả lời câu hỏi đó. Phần lớn cá
 ------------------
 <details><summary>2. Cách sử dụng cuốn sách khi làm việc nhóm</summary>
 <p>
+
 > # 2. How to use this book to help your team
 
 # 2. Cách sử dụng cuốn sách khi làm việc nhóm
@@ -130,6 +132,7 @@ Chỉ với một vài thay đổi nhỏ về thứ tự ưu tiên có thể tá
 ------------------
 <details><summary>3. Điều kiện tiên quyết và Ký hiệu</summary>
 <p>
+
 ># 3. Prerequisites and Notation
 
 # 3. Điều kiện tiên quyết và Ký hiệu
@@ -158,6 +161,7 @@ Nếu những khái niệm nêu trên còn mới với bạn thì bạn hãy xem
 ------------------
 <details><summary>4. Quy mô thúc đẩy quá trình phát triển machine learning</summary>
 <p>
+
 > # 4. Scale drives machine learning progress
 
 # 4. Quy mô thúc đẩy quá trình phát triển machine learning
@@ -224,6 +228,7 @@ Quá trình đạt được (i) huấn luyện mạng lớn và (ii) tập dữ 
 ------------------
 <details><summary>5. Tập phát triển và tập kiểm tra</summary>
 <p>
+
 > # 5. Your development and test sets
 
 # 5. Tập phát triển và tập kiểm tra
@@ -307,6 +312,7 @@ Ta cần thẩm định để quyết định được cần phải tập trung 
 ------------------
 <details><summary>6. Tập phát triển và tập kiểm tra nên có cùng phân phối</summary>
 <p>
+
 **Chương này đã được merge nhưng cần một lần chỉnh sửa văn phong nữa. Mong các bạn đóng góp bằng cách tạo Pull Request mới.**
 -----------
 
@@ -361,6 +367,7 @@ Nếu bạn đang làm việc với một bài toán đánh giá xếp hạng c�
 ------------------
 <details><summary>7. Tập phát triển/kiểm tra cần lớn đến mức nào?</summary>
 <p>
+
 > # 7. How large do the dev/test sets need to be?
 
 # 7. Tập phát triển/kiểm tra cần lớn đến mức nào?
@@ -391,6 +398,7 @@ Vậy còn kích thước của tập kiểm tra thì sao? Nó cần đủ lớn
 ------------------
 <details><summary>8. Thiết lập một phép đo đơn trị làm mục tiêu tối ưu</summary>
 <p>
+
 > # 8. Establish a single-number evaluation metric for your team to optimize
 
 # 8. Thiết lập một phép đo đơn trị làm mục tiêu tối ưu
@@ -451,6 +459,7 @@ Một ví dụ cuối cùng, giả sử bạn đang theo dõi riêng biệt về
 ------------------
 <details><summary>9. Phép đo tối ưu và phép đo thỏa mãn</summary>
 <p>
+
 > # 9. Optimizing and satisficing metrics
 
 # 9. Phép đo tối ưu và phép đo thỏa mãn
@@ -498,6 +507,7 @@ Một khi nhóm của bạn thống nhất về việc phép đo nào cần đư
 ------------------
 <details><summary>10. Xây dựng một tập phát triển và một phép đo sẽ tăng tốc quá trình làm việc</summary>
 <p>
+
 > # 10. Having a dev set and metric speeds up iterations
 
 # 10. Xây dựng một tập phát triển và một phép đo sẽ tăng tốc quá trình làm việc
@@ -532,6 +542,7 @@ Ngược lại, giả sử bạn không có một tập phát triển và phép 
 ------------------
 <details><summary>11. Khi nào cần thay đổi tập phát triển/kiểm tra và các phép đo</summary>
 <p>
+
 > # 11. When to change dev/test sets and metrics
 
 # 11. Khi nào cần thay đổi tập phát triển/kiểm tra và các phép đo
@@ -597,6 +608,7 @@ Việc thay đổi tập phát triển/kiểm tra hoặc phép đo trong một d
 ------------------
 <details><summary>12. Điều cần nhớ: Thiết lập các tập phát triển và kiểm tra</summary>
 <p>
+
 > # 12. Takeaways: Setting up development and test sets
 
 # 12. Điều cần nhớ: Thiết lập các tập phát triển và kiểm tra
@@ -642,6 +654,7 @@ Việc thay đổi tập phát triển/kiểm tra hoặc phép đo trong một d
 ------------------
 <details><summary>13. Bạn mong muốn xây dựng một hệ thống phòng chống email rác mới. Nhóm của bạn có rất nhiều ý tưởng:</summary>
 <p>
+
 > # 13. You want to build a new email anti-spam system. Your team has several ideas:
 
 # 13. Bạn mong muốn xây dựng một hệ thống phòng chống email rác mới. Nhóm của bạn có rất nhiều ý tưởng:
@@ -682,6 +695,7 @@ Lời khuyên này dành cho những độc giả có mong muốn xây dựng c�
 ------------------
 <details><summary>14. Phân tích lỗi: đánh giá ý tưởng dựa trên tập phát triển</summary>
 <p>
+
 > # 14. Error analysis: Look at dev set examples to evaluate ideas
 # 14. Phân tích lỗi: đánh giá ý tưởng dựa trên tập phát triển 
 
@@ -736,6 +750,7 @@ Việc phân tích lỗi là quá trình kiểm tra các mẫu trong tập phát
 ------------------
 <details><summary>15. Đánh giá song song các ý tưởng trong quá trình phân tích lỗi</summary>
 <p>
+
 > # 15. Evaluating multiple ideas in parallel during error analysis
 
 # 15. Đánh giá song song các ý tưởng trong quá trình phân tích lỗi
@@ -815,6 +830,7 @@ Phân tích lỗi không tạo ra một công thức toán học cứng nhắc c
 ------------------
 <details><summary>16. Dọn dẹp những mẫu bị gán nhãn nhầm trong tập phát triển và tập kiểm tra</summary>
 <p>
+
 > # 16. Cleaning up mislabeled dev and test set examples
 
 # 16. Dọn dẹp những mẫu bị gán nhãn nhầm trong tập phát triển và tập kiểm tra
@@ -896,6 +912,7 @@ Nếu bạn quyết định cải thiện chất lượng nhãn, hãy xem xét v
 ------------------
 <details><summary>17. Nếu bạn có một tập phát triển lớn, chia nó thành hai tập con và chỉ phân tích trên một tập</summary>
 <p>
+
 > # 17. If you have a large dev set, split it into two subsets, only one of which you look at
 
 # 17. Nếu bạn có một tập phát triển lớn, chia nó thành hai tập con và chỉ phân tích trên một tập
@@ -933,6 +950,7 @@ Việc phân chia tập phát triển thành hai tập riêng biệt-- tập ph�
 ------------------
 <details><summary>18. Tập phát triển Eyeball và Blackbox nên lớn như thế nào?</summary>
 <p>
+
 > # 18. How big should the Eyeball and Blackbox dev sets be?
 
 # 18. Tập phát triển Eyeball và Blackbox nên lớn như thế nào?
@@ -990,6 +1008,7 @@ Nếu bạn có quyền truy cập vào nhiều dữ liệu thì kích thước 
 ------------------
 <details><summary>19. Điều cần nhớ: Phân tích lỗi cơ bản</summary>
 <p>
+
 > # 19. Takeaways: Basic error analysis
 
 # 19. Điều cần nhớ: Phân tích lỗi cơ bản
@@ -1023,6 +1042,7 @@ Nếu bạn có quyền truy cập vào nhiều dữ liệu thì kích thước 
 ------------------
 <details><summary>20. Độ chệch và Phương sai: Hai nguồn lớn của lỗi</summary>
 <p>
+
 > # 20. Bias and Variance: The two big sources of error
 
 # 20. Độ chệch và Phương sai: Hai nguồn lớn của lỗi
@@ -1081,6 +1101,7 @@ Cũng có một vài phương pháp có thể đồng thời giảm độ chệc
 ------------------
 <details><summary>21. Những ví dụ về Độ chệch và Phương sai</summary>
 <p>
+
 ># 21. Examples of Bias and Variance
 
 # 21. Những ví dụ về Độ chệch và Phương sai
@@ -1158,6 +1179,7 @@ Bộ phân loại này đang hoạt động tốt, vì nó có độ chệch th�
 ------------------
 <details><summary>22. So sánh với tỉ lệ lỗi tối ưu</summary>
 <p>
+
 > # 22. Comparing to the optimal error rate
 
 # 22. So sánh với tỉ lệ lỗi tối ưu
@@ -1270,6 +1292,7 @@ Trong một vài chương trước, bạn đã học cách ước tính phương
 ------------------
 <details><summary>23. Xử lý Độ chệch và Phương sai</summary>
 <p>
+
 > # 23. Addressing Bias and Variance
 
 # 23. Xử lý Độ chệch và Phương sai
@@ -1311,6 +1334,7 @@ Giả sử bạn đang áp dụng deep learning, với L2 regularization hoặc 
 ------------------
 <details><summary>24. Sự đánh đổi giữa Độ chệch và Phương sai</summary>
 <p>
+
 > # 24. Bias vs. Variance tradeoff
 
 # 24. Sự đánh đổi giữa Độ chệch và Phương sai
@@ -1344,6 +1368,7 @@ Trong một vài chương tiếp theo, chúng ta sẽ thảo luận thêm các k
 ------------------
 <details><summary>25. Các kĩ thuật để giảm độ chệch có thể tránh được</summary>
 <p>
+
 > # 25. Techniques for reducing avoidable bias
 
 # 25. Các kĩ thuật để giảm độ chệch có thể tránh được
@@ -1381,6 +1406,7 @@ Một phương pháp không hiệu quả:
 ------------------
 <details><summary>26. Phân tích lỗi trên tập huấn luyện</summary>
 <p>
+
 > # 26. Error analysis on the training set
 
 # 26. Phân tích lỗi trên tập huấn luyện
@@ -1419,6 +1445,7 @@ Bạn cũng có thể kiểm tra kỹ xem liệu rằng một người có thể
 ------------------
 <details><summary>27. Các kỹ thuật làm giảm phương sai</summary>
 <p>
+
 > # 27. Techniques for reducing variance
 
 # 27. Các kỹ thuật làm giảm phương sai
@@ -1465,6 +1492,7 @@ Nếu như thuật toán của bạn có phương sai lớn, bạn có thể th�
 ------------------
 <details><summary>28. Chẩn đoán độ chệch và phương sai: Đồ thị quá trình học</summary>
 <p>
+
 > # 28. Diagnosing bias and variance: Learning curves
 
 # 28. Chẩn đoán độ chệch và phương sai: Đồ thị quá trình học
@@ -1528,6 +1556,7 @@ Một nhược điểm của quá trình này là nếu bạn chỉ nhìn vào �
 ------------------
 <details><summary>29. Vẽ đồ thị sai số huấn luyện</summary>
 <p>
+
 > # 29. Plotting training error
 
 # 29. Vẽ đồ thị sai số huấn luyện
