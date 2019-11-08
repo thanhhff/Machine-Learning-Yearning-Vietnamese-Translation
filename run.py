@@ -67,20 +67,23 @@ def main(vn_only=True):
             header = _get_first_header(chapter_path)
             assert header.startswith('# '), header
             header = header.replace('# ', '')
-            all_file.write('<details><summary>{}</summary>\n'.format(header))
-            all_file.write('<p>\n')
-            all_file.write('\n')
             with codecs.open(chapter_path, 'r', encoding='utf-8') as one_file:
                 for line in one_file:
-                    if vn_only and line.startswith('>'):
-                        continue
+                    if line.startswith('>'):
+                        if vn_only:
+                            continue
+                        all_file.write('<details><summary>click to show English</summary>\n'.format(header))
+                        all_file.write('<p>\n')
+                        all_file.write('\n')
+                        
                     try:
                         all_file.write(line)
                     except UnicodeDecodeError as e:
                         print('Line with decode error:')
                         print(e)
-            all_file.write('</p>\n')
-            all_file.write('</details>\n')
+                    if line.startswith('>'):
+                        all_file.write('</p>\n')
+                        all_file.write('</details>\n')
             all_file.write('\n')
 
 
