@@ -30,6 +30,8 @@
 * [28. Chẩn đoán độ chệch và phương sai: Đồ thị quá trình học](#28-chẩn-đoán-độ-chệch-và-phương-sai-đồ-thị-quá-trình-học)
 * [29. Vẽ đồ thị sai số huấn luyện](#29-vẽ-đồ-thị-sai-số-huấn-luyện)
 ------------------
+<details><summary>1. Tại sao cần chiến lược Machine Learning</summary>
+<p>
 
 # 1. Tại sao cần chiến lược Machine Learning 
 
@@ -80,8 +82,12 @@ Nếu chọn đúng một trong những hướng kể trên, có thể bạn s�
 
 
 Cuốn sách này sẽ giúp bạn trả lời câu hỏi đó. Phần lớn các vấn đề về machine learning đều có những dấu hiệu riêng ẩn chứa gợi ý về phương hướng giải quyết. Việc học để phát hiện ra những dấu hiệu đó sẽ giúp bạn tiết kiệm hàng tháng hay thậm chí hàng năm trời phát triển sản phẩm. 
+</p>
+</details>
 
 ------------------
+<details><summary>2. Cách sử dụng cuốn sách khi làm việc nhóm</summary>
+<p>
 
 # 2. Cách sử dụng cuốn sách khi làm việc nhóm
 
@@ -98,8 +104,12 @@ Nhưng có thể cộng sự của bạn không hiểu tại sao bạn lại ch�
 Chỉ với một vài thay đổi nhỏ về thứ tự ưu tiên có thể tác động lớn tới năng suất công việc của cả nhóm. Và bằng những thay đổi đó, tôi hi vọng bạn sẽ sớm trở thành siêu nhân Machine Learning của cả đội!
 
 ![img](../imgs/C02_01.png)
+</p>
+</details>
 
 ------------------
+<details><summary>3. Điều kiện tiên quyết và Ký hiệu</summary>
+<p>
 
 # 3. Điều kiện tiên quyết và Ký hiệu
 
@@ -117,8 +127,12 @@ Tôi sẽ thường xuyên đề cập đến mạng neural (còn được biế
 Nếu những khái niệm nêu trên còn mới với bạn thì bạn hãy xem các video ba tuần đầu tiên của khóa học Machine Learning trên Coursera tại http://ml-class.org
 
 ![img](../imgs/C03_01.png)
+</p>
+</details>
 
 ------------------
+<details><summary>4. Quy mô thúc đẩy quá trình phát triển machine learning</summary>
+<p>
 
 # 4. Quy mô thúc đẩy quá trình phát triển machine learning
 
@@ -165,8 +179,12 @@ Nhiều chi tiết khác như kiến trúc mạng neural cũng rất quan trọn
 [1] Mặc dù hình vẽ thể hiện mạng neural cho kết quả tốt hơn với tập dữ liệu nhỏ, nhưng hiện tượng này ít nhất quán hơn so với việc mạng neural hoạt động tốt với dữ liệu lớn. Với dữ liệu nhỏ, chất lượng thuật toán cổ điển có thể hoặc không tốt hơn mạng neural và phụ thuộc vào cách tạo đặc trưng thủ công. Nếu ta chỉ có 20 mẫu huấn luyện thì việc dùng hồi quy logistic hay mạng neural không khác biệt nhiều; việc xây dựng đặc trưng thủ công như thế nào sẽ mang lại sự khác biệt nhiều hơn so với việc chọn thuật toán. Còn nếu có một triệu mẫu, thì tôi sẽ chọn dùng mạng neural.
 
 
-Quá trình đạt được (i) huấn luyện mạng lớn và (ii) tập dữ liệu lớn có thể phức tạp hơn bạn tưởng. Vấn đề này sẽ được thảo luận đầy đủ và chi tiết trong cuốn sách này. Chúng ta sẽ bắt đầu với các chiến lược chung, hữu ích cho cả thuật toán truyền thống lẫn mạng neural, và từ từ hình thành chiến lược mới nhất cho việc xây dựng các hệ thống deep learning.
+Quá trình đạt được (i) huấn luyện mạng lớn và (ii) tập dữ liệu lớn có thể phức tạp hơn bạn tưởng. Vấn đề này sẽ được thảo luận đầy đủ và chi tiết trong cuốn sách này. Chúng ta sẽ bắt đầu với các chiến lược chung, hữu ích cho cả thuật toán truyền thống lẫn mạng neural, và từ từ hình thành chiến lược mới nhất cho việc xây dựng các hệ thống deep learning.</p>
+</details>
+
 ------------------
+<details><summary>5. Tập phát triển và tập kiểm tra</summary>
+<p>
 
 # 5. Tập phát triển và tập kiểm tra
 
@@ -225,8 +243,12 @@ Nếu bạn thực sự không có cách nào để có được dữ liệu g�
 
 
 Ta cần thẩm định để quyết định được cần phải tập trung bao nhiêu cho việc phát triển tập phát triển và tập kiểm tra. Tuy nhiên đừng đánh đồng phân phối giữa tập huấn luyện và tập kiểm tra. Hãy chọn ra những mẫu kiểm tra phản ánh cái mà bạn muốn thực hiện tốt, hơn là bất kì dữ liệu nào bạn tình cờ có được cho tập huấn luyện.
+</p>
+</details>
 
 ------------------
+<details><summary>6. Tập phát triển và tập kiểm tra nên có cùng phân phối</summary>
+<p>
 **Chương này đã được merge nhưng cần một lần chỉnh sửa văn phong nữa. Mong các bạn đóng góp bằng cách tạo Pull Request mới.**
 -----------
 
@@ -264,8 +286,12 @@ Nhiều vấn đề phức tạp có thể xảy ra khi làm việc với các �
 
 
 Nếu bạn đang làm việc với một bài toán đánh giá xếp hạng của bên thứ ba, họ có thể cung cấp tập phát triển và tập kiểm tra có phân phối khác nhau. Nếu so sánh với bài toán có tập phát triển và tập kiểm tra đến từ cùng phân phối, bài toán này có kết quả phụ thuộc nhiều vào may mắn hơn là kỹ năng của bạn. Việc phát triển các thuật toán mà mô hình được huấn luyện trên một phân phối để khái quát hóa tốt trên một phân phối khác là một vấn đề quan trọng trong nghiên cứu. Tuy nhiên, nếu mục tiêu của bạn là cải thiện một ứng dụng machine learning cụ thể thay vì tạo ra tiến triển trong nghiên cứu, tôi khuyên bạn chọn tập phát triển và tập kiểm tra đến từ cùng phân phối. Điều này sẽ khiến nhóm bạn làm việc hiệu quả hơn.
+</p>
+</details>
 
 ------------------
+<details><summary>7. Tập phát triển/kiểm tra cần lớn đến mức nào?</summary>
+<p>
 
 # 7. Tập phát triển/kiểm tra cần lớn đến mức nào?
 
@@ -284,8 +310,12 @@ Vậy còn kích thước của tập kiểm tra thì sao? Nó cần đủ lớn
 **CHÚ THÍCH:**
 
 [2] Trên lý thuyết, ta cũng có thể kiểm tra xem một thay đổi trong thuật toán có tạo ra sự khác biệt có ý nghĩa thống kê trên tập phát triển hay không. Trong thực tế, hầu hết mọi người đều không quan tâm đến điều này (trừ khi họ muốn công bố các các bài báo khoa học). Tôi thường thấy các bài kiểm định thống kê không mấy hữu ích trong việc đánh giá tiến độ phát triển.
+</p>
+</details>
 
 ------------------
+<details><summary>8. Thiết lập một phép đo đơn trị làm mục tiêu tối ưu</summary>
+<p>
 
 # 8. Thiết lập một phép đo đơn trị làm mục tiêu tối ưu
 
@@ -329,8 +359,12 @@ Một ví dụ cuối cùng, giả sử bạn đang theo dõi riêng biệt về
 
 
 [4] Nếu bạn muốn đọc thêm về chỉ số F1, xem [https://en.wikipedia.org/wiki/F1_score](https://en.wikipedia.org/wiki/F1_score). Chỉ số F1 là trung bình điều hoà của Precision và Recall, được tính bằng 2/((1/Precision) + (1/Recall))
+</p>
+</details>
 
 ------------------
+<details><summary>9. Phép đo tối ưu và phép đo thỏa mãn</summary>
+<p>
 
 # 9. Phép đo tối ưu và phép đo thỏa mãn
 
@@ -363,8 +397,12 @@ Ví dụ cuối cùng, giả sử bạn cần xây dựng một thiết bị ph�
 
 
 Một khi nhóm của bạn thống nhất về việc phép đo nào cần được tối ưu, cả nhóm sẽ đạt tiến độ nhanh hơn.
+</p>
+</details>
 
 ------------------
+<details><summary>10. Xây dựng một tập phát triển và một phép đo sẽ tăng tốc quá trình làm việc</summary>
+<p>
 
 # 10. Xây dựng một tập phát triển và một phép đo sẽ tăng tốc quá trình làm việc
 
@@ -386,8 +424,12 @@ Thật sự rất khó để đoán trước phương án tiếp cận nào tố
 
 
 Ngược lại, giả sử bạn không có một tập phát triển và phép đo cụ thể. Như vậy mỗi khi nhóm của bạn phát triển một bộ phân loại mèo mới, bạn sẽ phải tích hợp nó vào ứng dụng, và ngồi thử nghiệm ứng dụng đó một vài tiếng để kiểm tra liệu bộ phân loại mới có cải thiện hay không. Quá trình này sẽ cực kì chậm! Đồng thời, nhóm của bạn sẽ rất khó nhận ra sự khác biệt nếu độ chính xác chỉ cải thiện từ 95.0% lên 95.1%, bạn sẽ không thể phát hiện sự cải thiện 0.1% đó chỉ qua việc ngồi thử nghiệm trên ứng dụng. Và hệ thống sau cùng là tích lũy của rất nhiểu bước cải thiện nhỏ 0.1%. Có một tập phát triển và phép đo cho phép bạn nhanh chóng phát hiện ra ý tưởng nào sẽ đem lại những cải tiến nhỏ (hoặc lớn), và từ đó bạn có thể quyết định những ý tưởng nào cần hoàn thiện thêm hoặc loại bỏ.
+</p>
+</details>
 
 ------------------
+<details><summary>11. Khi nào cần thay đổi tập phát triển/kiểm tra và các phép đo</summary>
+<p>
 
 # 11. Khi nào cần thay đổi tập phát triển/kiểm tra và các phép đo
 
@@ -433,8 +475,12 @@ Giả sử trong ứng dụng mèo, phép đo của bạn là độ chính xác 
 
 
 Việc thay đổi tập phát triển/kiểm tra hoặc phép đo trong một dự án là khá phổ biến. Có một tập phát triển/kiểm tra và phép đo ban đầu giúp bạn hoàn thành chu kỳ phát triển một cách nhanh chóng. Nếu bạn nhận ra rằng tập phát triển/kiểm tra hoặc phép đo không còn giúp nhóm đi đúng hướng, không sao cả! Chỉ cần thay chúng và đảm bảo nhóm biết về hướng đi mới.
+</p>
+</details>
 
 ------------------
+<details><summary>12. Điều cần nhớ: Thiết lập các tập phát triển và kiểm tra</summary>
+<p>
 
 # 12. Điều cần nhớ: Thiết lập các tập phát triển và kiểm tra
 
@@ -464,8 +510,12 @@ Việc thay đổi tập phát triển/kiểm tra hoặc phép đo trong một d
 
 
 * Nếu tập phát triển và phép đo không còn chỉ cho nhóm của bạn đi đúng hướng, hãy nhanh chóng thay đổi chúng: (i) Nếu thuật toán đã overfit tập phát triển, hãy thu thập thêm dữ liệu cho tập này. (ii) Nếu phân phối xác suất thực tế mà bạn quan tâm khác với phân phối xác suất của tập phát triển/kiểm tra, hãy tạo tập phát triển và kiểm tra mới. (iii) Nếu phép đo không còn đo lường được điều quan trọng nhất với bạn, hãy thay đổi phép đo.
+</p>
+</details>
 
 ------------------
+<details><summary>13. Bạn mong muốn xây dựng một hệ thống phòng chống email rác mới. Nhóm của bạn có rất nhiều ý tưởng:</summary>
+<p>
 
 # 13. Bạn mong muốn xây dựng một hệ thống phòng chống email rác mới. Nhóm của bạn có rất nhiều ý tưởng:
 
@@ -492,8 +542,12 @@ Vì vậy, bạn không nên bắt đầu bằng việc thiết kế và xây d�
 **CHÚ THÍCH:**
 
 Lời khuyên này dành cho những độc giả có mong muốn xây dựng các ứng dụng AI, hơn là những người có mục tiêu là xuất bản những bài báo học thuật. Tôi sẽ quay trở lại với chủ đề nghiên cứu này sau.
+</p>
+</details>
 
 ------------------
+<details><summary>14. Phân tích lỗi: đánh giá ý tưởng dựa trên tập phát triển</summary>
+<p>
 # 14. Phân tích lỗi: đánh giá ý tưởng dựa trên tập phát triển 
 
 ![img](../imgs/C14_01.png)
@@ -529,8 +583,12 @@ Quan sát 100 mẫu để phân tích lỗi không tốn nhiều thời gian. K�
 
 
 Việc phân tích lỗi là quá trình kiểm tra các mẫu trong tập phát triển bị phân loại nhầm, từ đó bạn có thể hiểu được nguyên nhân.  Hiểu rõ nguyên nhân tạo ra lỗi sẽ giúp bạn nhìn ra những hướng giải quyết mới mà chúng ta sẽ thảo luận ở phần sau. Một số chương tiếp theo sẽ trình bày những "best practices" được dùng để phân tích lỗi. 
+</p>
+</details>
 
 ------------------
+<details><summary>15. Đánh giá song song các ý tưởng trong quá trình phân tích lỗi</summary>
+<p>
 
 # 15. Đánh giá song song các ý tưởng trong quá trình phân tích lỗi
 
@@ -591,8 +649,12 @@ Bạn thấy rằng việc khắc phục lỗi phân loại nhầm trên hạng 
 
 
 Phân tích lỗi không tạo ra một công thức toán học cứng nhắc cho bạn biết hạng mục nào có độ ưu tiên cao nhất. Bạn cũng cần đánh giá khả năng cải thiện có thể đạt được trên các hạng mục cũng như khối lượng công việc cần thiết để giải quyết từng hạng mục đó.
+</p>
+</details>
 
 ------------------
+<details><summary>16. Dọn dẹp những mẫu bị gán nhãn nhầm trong tập phát triển và tập kiểm tra</summary>
+<p>
 
 # 16. Dọn dẹp những mẫu bị gán nhãn nhầm trong tập phát triển và tập kiểm tra
 
@@ -651,8 +713,12 @@ Bất kể quy trình bạn áp dụng để sửa các nhãn trong tập huấn
 
 
 Nếu bạn quyết định cải thiện chất lượng nhãn, hãy xem xét việc kiểm tra kỹ các nhãn của những mẫu mà hệ thống của bạn đã phân loại nhầm cũng như các nhãn của những mẫu mà nó đã phân loại chính xác. Rất có thể là cả nhãn gốc và thuật toán học tập của bạn đều đã sai trên một mẫu. Nếu bạn chỉ sửa những nhãn của mẫu mà hệ thống đã phân loại nhầm, bạn có thể đã gây ra thiên lệch trong đánh giá. Nếu bạn có 1.000 mẫu trong tập phát triển, và nếu bộ phân loại của bạn có 98,0% độ chính xác, sẽ dễ hơn khi kiểm tra 20 mẫu đã bị phân loại nhầm hơn là cả 980 mẫu được phân loại chính xác. Bởi vì trên thực tế, sẽ dễ hơn khi chỉ kiểm tra những mẫu bị phân loại nhầm, do đó sự thiên lệch sẽ lẻn vào một vài tập phát triển. Sự thiên lệch này là chấp nhận được nếu bạn chỉ quan tâm vào việc phát triển một sản phẩm hay một ứng dụng, nhưng nó sẽ là một vấn đề nếu bạn định sử dụng kết quả trong một bài báo nghiên cứu khoa học hay cần một phép đo hoàn toàn không thiên lệch cho độ chính xác của tập kiểm tra.
+</p>
+</details>
 
 ------------------
+<details><summary>17. Nếu bạn có một tập phát triển lớn, chia nó thành hai tập con và chỉ phân tích trên một tập</summary>
+<p>
 
 # 17. Nếu bạn có một tập phát triển lớn, chia nó thành hai tập con và chỉ phân tích trên một tập
 
@@ -678,8 +744,12 @@ Tại sao chúng ta lại chia tập phát triển một cách riêng biệt th�
 
 
 Việc phân chia tập phát triển thành hai tập riêng biệt-- tập phát triển Eyeball và tập phát triển Blackbox -- cho biết khi nào việc phân tích lỗi thủ công đang khiến tập Eyeball bị overfit.
+</p>
+</details>
 
 ------------------
+<details><summary>18. Tập phát triển Eyeball và Blackbox nên lớn như thế nào?</summary>
+<p>
 
 # 18. Tập phát triển Eyeball và Blackbox nên lớn như thế nào?
 
@@ -719,8 +789,12 @@ Giữa tập phát triển Eyeball và tập phát triển Blackbox, tôi cho r�
 
 
 Nếu bạn có quyền truy cập vào nhiều dữ liệu thì kích thước của tập phát triển Eyeball sẽ chủ yếu dựa trên bao nhiêu mẫu mà bạn có thời gian để phân tích thủ công. Ví dụ, tôi hiếm khi thấy ai phân tích thủ công hơn 1.000 lỗi.
+</p>
+</details>
 
 ------------------
+<details><summary>19. Điều cần nhớ: Phân tích lỗi cơ bản</summary>
+<p>
 
 # 19. Điều cần nhớ: Phân tích lỗi cơ bản
 
@@ -741,8 +815,12 @@ Nếu bạn có quyền truy cập vào nhiều dữ liệu thì kích thước 
 
 
 * Nếu tập phát triển của bạn không đủ lớn để tách ra theo cách này, hãy lấy toàn bộ tập phát triển làm một tập phát triển Eyeball dành cho việc phân tích lỗi thủ công, chọn mô hình, và điều chỉnh siêu tham số.
+</p>
+</details>
 
 ------------------
+<details><summary>20. Độ chệch và Phương sai: Hai nguồn lớn của lỗi</summary>
+<p>
 
 # 20. Độ chệch và Phương sai: Hai nguồn lớn của lỗi
 
@@ -784,8 +862,12 @@ Phát triển một trực giác tốt về Độ chệch và Phương sai sẽ 
 
 
 Cũng có một vài phương pháp có thể đồng thời giảm độ chệch và phương sai bằng cách tạo sự thay đổi lớn trong kiến trúc hệ thống. Tuy nhiên, những phương pháp này có xu hướng khó phát hiện và triển khai hơn.
+</p>
+</details>
 
 ------------------
+<details><summary>21. Những ví dụ về Độ chệch và Phương sai</summary>
+<p>
 
 # 21. Những ví dụ về Độ chệch và Phương sai
 
@@ -839,8 +921,12 @@ Cuối cùng, hãy xem xét điều này:
 
 
 Bộ phân loại này đang hoạt động tốt, vì nó có độ chệch thấp và phương sai thấp. Chúc mừng bạn đã đạt được hiệu suất tuyệt vời!
+</p>
+</details>
 
 ------------------
+<details><summary>22. So sánh với tỉ lệ lỗi tối ưu</summary>
+<p>
 
 # 22. So sánh với tỉ lệ lỗi tối ưu
 
@@ -920,8 +1006,12 @@ Trong một vài chương trước, bạn đã học cách ước tính phương
 
 
 [9] Các định nghĩa này được chọn để truyền đạt cái nhìn sâu sắc về cách cải thiện thuật toán học máy của bạn. Các định nghĩa này khác với cách các nhà thống kê định nghĩa Độ chệch và Phương sai.  Về mặt kỹ thuật, những gì tôi định nghĩa là "Độ chệch" nên được gọi là “Lỗi chúng ta quy cho độ chệch”, và “Độ chệch có thể tránh được” nên là “Lỗi chúng ta quy cho độ chệch của thuật toán học mà lớn hơn tỉ lệ lỗi tối ưu” .
+</p>
+</details>
 
 ------------------
+<details><summary>23. Xử lý Độ chệch và Phương sai</summary>
+<p>
 
 # 23. Xử lý Độ chệch và Phương sai
 
@@ -948,8 +1038,12 @@ Việc tăng kích thuớc mô hình nhìn chung làm giảm độ chệch, như
 
 
 Giả sử bạn đang áp dụng deep learning, với L2 regularization hoặc dropout, với tham số regularization hoạt động tốt nhất tập phát triển. Nếu bạn tăng kích thuớc mô hình, thuờng thì hiệu quả của mô hình sẽ giữ nguyên hoặc cải thiện; nó thường không có khả năng xấu đi đáng kể. Lý do duy nhất để tránh sử dụng một mô hình lớn hơn là chi phí tính toán tăng lên.
+</p>
+</details>
 
 ------------------
+<details><summary>24. Sự đánh đổi giữa Độ chệch và Phương sai</summary>
+<p>
 
 # 24. Sự đánh đổi giữa Độ chệch và Phương sai
 
@@ -970,8 +1064,12 @@ Nếu bạn chọn một kiến trúc mô hình phù hợp với tác vụ của
 
 
 Trong một vài chương tiếp theo, chúng ta sẽ thảo luận thêm các kỹ thuật cụ thể để giải quyết độ chệch và phương sai.
+</p>
+</details>
 
 ------------------
+<details><summary>25. Các kĩ thuật để giảm độ chệch có thể tránh được</summary>
+<p>
 
 # 25. Các kĩ thuật để giảm độ chệch có thể tránh được
 
@@ -995,8 +1093,12 @@ Một phương pháp không hiệu quả:
 
 
 * **Thêm dữ liệu huấn luyện**: Kĩ thuật này có ích với các vấn đề về phương sai, nhưng nó thường không có hiệu quả gì đáng kể với độ chệch.
+</p>
+</details>
 
 ------------------
+<details><summary>26. Phân tích lỗi trên tập huấn luyện</summary>
+<p>
 
 # 26. Phân tích lỗi trên tập huấn luyện
 
@@ -1023,8 +1125,12 @@ Trong ví dụ này, bạn có thể nhận ra rằng thuật toán của bạn 
 
 
 Bạn cũng có thể kiểm tra kỹ xem liệu rằng một người có thể diễn dịch các đoạn âm thanh đầu vào cho thuật toán học của bạn. Nếu có quá nhiều nhiễu nền đến nỗi đơn giản là không ai có thể phát hiện ra những gì được nói, thì có thể sẽ bất hợp lý khi mong đợi bất kỳ thuật toán nào nhận ra chính xác những phát ngôn đó. Chúng ta sẽ thảo luận về lợi ích của việc so sánh thuật toán của bạn với hiệu quả cấp con người trong một phần sau.
+</p>
+</details>
 
 ------------------
+<details><summary>27. Các kỹ thuật làm giảm phương sai</summary>
+<p>
 
 # 27. Các kỹ thuật làm giảm phương sai
 
@@ -1055,8 +1161,12 @@ Nếu như thuật toán của bạn có phương sai lớn, bạn có thể th�
 
 
 * **Thay đổi kiến trúc mô hình** (chẳng hạn như kiến trúc mạng neural) để phù hợp hơn với vấn đề của bạn: Kỹ thuật này có thể ảnh hưởng đến cả độ lệch và phương sai.
+</p>
+</details>
 
 ------------------
+<details><summary>28. Chẩn đoán độ chệch và phương sai: Đồ thị quá trình học</summary>
+<p>
 
 # 28. Chẩn đoán độ chệch và phương sai: Đồ thị quá trình học
 
@@ -1101,8 +1211,12 @@ Do đó nhìn vào đồ thị đường cong học tập có thể giúp bạn 
 
 
 Một nhược điểm của quá trình này là nếu bạn chỉ nhìn vào đường cong lỗi của tập phát triển, thì có thể bạn sẽ khó ngoại suy và dự đoán chính xác vị trí đường cong đỏ khi có thêm dữ liệu. Một đồ thị khác có thể giúp bạn dự đoán sự tác động của việc thêm dữ liệu đó là: đồ thị lỗi tập huấn luyện.
+</p>
+</details>
 
 ------------------
+<details><summary>29. Vẽ đồ thị sai số huấn luyện</summary>
+<p>
 
 # 29. Vẽ đồ thị sai số huấn luyện
 
@@ -1128,4 +1242,6 @@ Bạn có thể thấy rằng đồ thị sai số huấn luyện (training erro
 
 
 Tiếp theo chúng ta sẽ thảo luận làm thế nào để diễn giải những đồ thị này.
+</p>
+</details>
 

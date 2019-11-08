@@ -28,6 +28,14 @@ def _create_header_link(line):
     return line.lower()
 
 
+def _get_first_header(path):
+    with codecs.open(path, 'r', encoding='utf-8') as one_file:
+        for line in one_file:
+            if line.startswith('# '):
+                line=line.strip()
+                return line
+
+
 def main(vn_only=True):
     if vn_only:
         output_filename = os.path.join(CHAPTERS_DIR, ALL_CHAPTERS_VN_FILENAME)
@@ -40,20 +48,15 @@ def main(vn_only=True):
             if i in PENDING_CHAPTERS:
                 continue
             chapter_path = _chapter_path_from_chapter_number(i)
-            with codecs.open(chapter_path, 'r', encoding='utf-8') as one_file:
-                for line in one_file:
-                    if line.startswith('# '):
-                        line=line.strip()
-                        link = _create_header_link(line)
+            header = _get_first_header(chapter_path)
+            link = _create_header_link(header)
 
-                        full_link = "[{display_text}]({link_to_chapter})".format(
-                            display_text=line[len('# '):],
-                            link_to_chapter=link
-                        )
+            full_link = "[{display_text}]({link_to_chapter})".format(
+                display_text=header[len('# '):],
+                link_to_chapter=link
+            )
 
-                        all_file.write('* ' + full_link + '\n')
-                        break
-
+            all_file.write('* ' + full_link + '\n')
 
         # main content
         for i in range(1, MAX_CHAPTER + 1):
@@ -61,6 +64,11 @@ def main(vn_only=True):
                 continue
             all_file.write('------------------\n')
             chapter_path = os.path.join(CHAPTERS_DIR, 'ch{:02d}.md'.format(i))
+            header = _get_first_header(chapter_path)
+            assert header.startswith('# '), header
+            header = header.replace('# ', '')
+            all_file.write('<details><summary>{}</summary>\n'.format(header))
+            all_file.write('<p>\n')
             with codecs.open(chapter_path, 'r', encoding='utf-8') as one_file:
                 for line in one_file:
                     if vn_only and line.startswith('>'):
@@ -70,6 +78,8 @@ def main(vn_only=True):
                     except UnicodeDecodeError as e:
                         print('Line with decode error:')
                         print(e)
+            all_file.write('</p>\n')
+            all_file.write('</details>\n')
             all_file.write('\n')
 
 
