@@ -246,6 +246,7 @@ def _gen_progress_table():
         title = _get_chapter_title(chapter_number)
         pr_links = ', '.join(_get_markdown_link_to_pr(pr) for pr in sorted(prs))
         markdown_table_row = '| [{}]({}) | {} |\n'.format(_remove_sharp(title), chapter_path, pr_links)
+        print(markdown_table_row)
         res += markdown_table_row
 
     return res
@@ -260,6 +261,6 @@ def gen_readme():
 
 
 if __name__ == '__main__':
-    main(vn_only=False)
-    main(vn_only=True)
+    # main(vn_only=False)
+    # main(vn_only=True)
     gen_readme()
